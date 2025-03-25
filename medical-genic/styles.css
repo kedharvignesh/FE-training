@@ -2,38 +2,162 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
-    height: 100%;
-    margin: 0; /* Ensure no default margin on body */
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  height: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
 }
 
 img,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
+h1 {
+  max-width: 7%;
+  margin: 20px 40px 20px 150px;
+  max-width: 200px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  float: left;
+}
+
+.nav-links {
+  max-width: 850px;
+  margin: 15px 150px 20px 0;
+  float: right;
+  font-size: 14px;
+}
+.nav-links li {
+  display: inline-block;
+  margin-right: 21px;
+}
+
+.login {
+  margin-left: 220px;
+}
+
+.login a {
+  margin-right: 40px;
+}
+
+.join-us-btn {
+  background-color: #57c192;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.join-us-btn img {
+  float: right;
+  margin: 6px 0 0 10px;
+  padding-right: 10px;
+}
+
+header {
+  background-color: #e9ebff;
+  padding: 0 59px;
+  height: 90px;
+  clear: both;
+}
+
+.intro-page {
+  background-color: #e9ebff;
+height: calc(100vh - 90px);
+}
+
+.intro-text {
+  width: 40%;
+  height: 50%;
+  float: left;
+  margin: 100px 30px 100px 150px;
+}
+
+.intro-page img {
+  width: 580px;
+height: 600px;
+float: right;
+margin-right: 20px;
+}
+
+.intro-sub-heading {
+  color: #57C192;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.intro-page h2 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  margin: 20px 0;
+}
+
+.intro-para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  width: 80%;
+}
+
+.get-quote-btn {
+  background-color: #57C192;
+  padding: 15px 40px 15px 40px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 30px; 
+  margin-right: 6px;
+}
+
+.learn-more-btn {
+  background-color: inherit;
+  color: #57C192;
+  padding: 15px 40px 15px 40px;
+  border: 1px solid #57C192;
+  border-radius: 5px;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  cursor: pointer;
+  font-size: 14px;
+}
