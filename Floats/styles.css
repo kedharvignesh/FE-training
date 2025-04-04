@@ -1,0 +1,140 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(233, 238, 238);
+  height: 25%;
+  padding: 30px 40px 40px 100px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0px;
+  float: left;
+  inline-size: 60%;
+}
+
+.part2 {
+  clear: both;
+  color: rgb(39, 215, 156);
+}
+
+h1 + p {
+  clear: both;
+  inline-size: 60%;
+  font-size: 0.8rem;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  align-content: space-between;
+  height: 0px;
+}
+
+header ul li {
+  display: inline-block;
+  width: 28%;
+  padding: 0%;
+  height: 15px;
+  margin: 5% 4%;
+}
+
+header ul li img {
+  float: left;
+}
+
+p + p {
+  font-size: 0.8rem;
+}
+
+li p {
+  float: right;
+  margin: 0%;
+  padding: 0%;
+}
+article {
+    block-size: 40%;
+    box-sizing: border-box;
+}
+article img {
+    max-height: 90%;
+    float: left;
+    margin-inline-start: 20%;
+}
+article div {
+    inline-size: 50%;
+    float: right;
+    padding-inline: 1rem;
+    padding-top: 3%;
+    max-height: 90%;
+    margin-inline-end: 9%;
+    max-width: 50%;
+}
+article h2 {
+    font-size: 2.2rem;
+    margin: 0%;
+}
+article p {
+    padding-block: 0.8rem;
+    padding-inline-end: 5rem;
+    margin: 0%;
+    font-size: 0.6rem;
+}
+
+button {
+    background-color: rgb(39, 215, 156);
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+}
+
+section {
+  background-color: rgb(233, 238, 238);
+  block-size: 35%;
+  box-sizing: border-box;
+}
+
+section div {
+    inline-size: 60%;
+    float: right;;
+}
+
+section ul {
+    margin: 0%;
+    padding: 0%;
+}
+section p {
+  font-size: 0.6rem;
+    padding-block: 0.6rem;
+    padding-inline-end: 5rem;
+    margin: 0%;
+}
+section .review {
+    font-size: 0.8rem;
+}
+section .name {
+  color: rgb(39, 215, 156);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+section li {
+    display: inline-block;
+    list-style: none;
+    padding-inline: 1rem;
+}
+section li p {
+    color: rgb(39, 215, 156);
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
