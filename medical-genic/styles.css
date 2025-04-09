@@ -413,7 +413,6 @@ h6 {
   letter-spacing: 0.2px;
   color: #bdbdbd;
   text-decoration: line-through;
-  width: 40%;
 }
 
 .actual-price {
@@ -422,5 +421,64 @@ h6 {
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #2dc071;
+}
+
+.products {
+  border-radius: 37px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.page-5 {
+  height: 100vh;
+  clear: both;
+  background-color: #e9ebff;
+  padding: 150px 100px 100px 150px;
+}
+
+.page-5-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 30px;
+  color: #737373;
+}
+
+.customer-feedbacks li {
   display: inline-block;
+  width: 300px;
+  margin-right: 10px;
+  margin-top: 50px;
+  padding: 20px 80px;
+  background-color: #ffffff;
+}
+
+.customer-feedback {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.customer-info img {
+  width: 30%;
+  float: left;
+  margin-top: 20px;
+}
+
+.customer-name {
+  float: right;
+  margin-top: 20px;
+}
+
+.designation {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
 }
