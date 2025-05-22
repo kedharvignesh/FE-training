@@ -111,6 +111,11 @@ button {
   gap: 21px;
   margin-left: -100px;
   color: #737373;
+  align-items: center;
+}
+
+.nav-links li:last-child {
+  margin-left: 140px; 
 }
 
 .login {
@@ -376,24 +381,38 @@ button {
   align-items: center;
 }
 
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
 @media (max-width: 768px) {
+
+.hamburger {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(17, 39, 59);
+  }
+
   nav {
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
+    flex-wrap: wrap;
   }
 
   .nav-links {
+    display: none;
     flex-direction: column;
     gap: 10px;
-    margin-left: 0;
     width: 100%;
   }
 
-  .login {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    align-items: flex-start;
+  .nav-links.active {
+    display: flex;
   }
 }
