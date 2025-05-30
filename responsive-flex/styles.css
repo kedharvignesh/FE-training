@@ -112,10 +112,11 @@ button {
   margin-left: -100px;
   color: #737373;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-links li:last-child {
-  margin-left: 140px; 
+  margin-left: 140px;
 }
 
 .login {
@@ -123,6 +124,7 @@ button {
   display: flex;
   gap: 40px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .join-us-btn {
@@ -388,11 +390,8 @@ button {
   cursor: pointer;
 }
 
-
-
 @media (max-width: 768px) {
-
-.hamburger {
+  .hamburger {
     display: block;
     margin-bottom: 10px;
     color: rgb(17, 39, 59);
@@ -400,7 +399,7 @@ button {
 
   nav {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     flex-wrap: wrap;
   }
@@ -408,11 +407,75 @@ button {
   .nav-links {
     display: none;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     width: 100%;
+    margin-left: 0;
   }
 
   .nav-links.active {
     display: flex;
+  }
+
+  .nav-links li:last-child {
+    margin-left: 0;
+  }
+
+  .login {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+  }
+
+  .intro-page {
+    padding-left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .intro-btns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .activity-page-text {
+    margin-block: 50px;
+    align-items: center;
+  }
+  .activity-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activity-para {
+    text-align: center;
+  }
+
+  .meet-experts-page {
+    margin-block: 150px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .meet-expert-text {
+    max-width: 50%;
+    text-align: center;
+  }
+
+  .red-line{
+    margin: 0 auto;
+  }
+
+  .speciality-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
